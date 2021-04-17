@@ -84,7 +84,8 @@ int main(int argc, char* argv[]) {
     //TODO: Write a testsuite
 
     string path = "C:\\Users\\pmhie\\source\\repos\\Assignment 2\\Assignment 2\\source\\tests\\";
-    simulate(path+"test4.txt",c);
+    simulate(path+"test1.txt",c);
+    c->treePrint();
     delete c;
     return 0;
 }
